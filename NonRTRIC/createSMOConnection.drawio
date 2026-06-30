@@ -1,9 +1,198 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="Q3WliR5em7fs_sDtW7Oq">
-    <mxGraphModel>
+    <mxGraphModel dx="4088" dy="2120" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="900" pageHeight="1600" background="light-dark(#FFFFFF,#F2EDED)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#000000);fillColor=none;fontSize=35;fontStyle=0;fontColor=light-dark(#000000,#000000);fontFamily=Helvetica;" value="&lt;font&gt;rAPP&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="59" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#000000);fillColor=none;fontSize=35;fontStyle=0;fontColor=light-dark(#000000,#000000);fontFamily=Helvetica;" value="&lt;span&gt;&lt;font&gt;SEM&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1136" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=light-dark(#000000,#000000);fillColor=none;fontSize=35;fontStyle=0;fontColor=light-dark(#000000,#000000);fontFamily=Helvetica;" value="&lt;span&gt;&lt;font&gt;SMO&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2399" y="336" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-4" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);fontSize=35;fontStyle=0;fontColor=light-dark(#000000,#000000);fontFamily=Helvetica;" target="mIO0piNM_KG7EkZcBuuQ-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="119" y="2736" as="sourcePoint" />
+            <mxPoint x="400" y="396" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-5" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#000000);fontSize=35;fontStyle=0;fontColor=light-dark(#000000,#000000);fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1205" y="2691" as="sourcePoint" />
+            <mxPoint x="1186.9700000000003" y="396.78999999999974" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);fontSize=35;fontStyle=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontColor=light-dark(#000000,#000000);fontFamily=Helvetica;" target="mIO0piNM_KG7EkZcBuuQ-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2467" y="3199.60009765625" as="sourcePoint" />
+            <mxPoint x="2392" y="563" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-7" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;strokeColor=light-dark(#000000,#000000);fillColor=none;fontSize=35;fontStyle=0;fontColor=light-dark(#000000,#000000);fontFamily=Helvetica;" value="&lt;font&gt;SMOConfigInfo Table:&lt;br&gt;&lt;br&gt;Name, Provider,SMOIPAddress, SMOPortNo, ConnectionStatus&amp;nbsp;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="320" width="441" x="2856" y="1945" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);fontSize=35;fontStyle=0;fontColor=light-dark(#000000,#000000);fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="484" as="sourcePoint" />
+            <mxPoint x="1187" y="484" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=35;fontStyle=0;fontColor=light-dark(#000000,#000000);fontFamily=Helvetica;" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; padding: 0px;&quot;&gt;&lt;font&gt;GET : /cmapi/v1/smoConfigInfo&lt;br&gt;Authorization: Bearer &amp;lt;token&amp;gt;&lt;/font&gt;&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="89" width="536" x="139" y="398" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);fontSize=35;fontStyle=0;fontColor=light-dark(#000000,#000000);fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1192" y="1444" as="sourcePoint" />
+            <mxPoint x="2461" y="1435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-11" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);fontSize=35;fontStyle=0;fontColor=light-dark(#000000,#000000);entryX=0.462;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;" target="mIO0piNM_KG7EkZcBuuQ-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="3047" y="1094" />
+            </Array>
+            <mxPoint x="1197" y="1094" as="sourcePoint" />
+            <mxPoint x="3014" y="1085" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-12" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);fontSize=35;fontStyle=0;fontColor=light-dark(#000000,#000000);fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1200" y="2180" as="sourcePoint" />
+            <mxPoint x="117" y="2180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=35;fontStyle=0;fontColor=light-dark(#000000,#000000);fontFamily=Helvetica;" value="&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; padding: 0px; line-height: 90%;&quot;&gt;&lt;blockquote style=&quot;text-align: justify; margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; padding: 0px;&quot;&gt;&lt;blockquote style=&quot;margin: 0px 0px 0px 40px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; padding: 0px;&quot;&gt;payload: `&quot;SMO connection created successfully&quot;`&lt;/blockquote&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/blockquote&gt;&lt;/blockquote&gt;" vertex="1">
+          <mxGeometry height="78" width="986" x="212" y="2183" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=35;fontStyle=0;fontColor=light-dark(#000000,#000000);fontFamily=Helvetica;" value="&lt;span&gt;&lt;font&gt;200 OK&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="81" width="397" x="547" y="2102" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;font&gt;&lt;span&gt;1. Checks Maintenance Mode&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="72" width="623" x="1203" y="455" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-16" edge="1" parent="1" style="html=1;labelBackgroundColor=#ffffff;startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=1;dashed=1;fontSize=35;rounded=0;fontFamily=Helvetica;fontStyle=0" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="111" y="673" as="sourcePoint" />
+            <mxPoint x="1117" y="659" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-17" edge="1" parent="1" style="html=1;labelBackgroundColor=light-dark(#000000,#000000);startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=2;dashed=1;fontSize=35;rounded=0;fontColor=light-dark(#000000,#000000);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontFamily=Helvetica;fontStyle=0" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="1192" y="553" as="sourcePoint" />
+            <mxPoint x="120" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;font&gt;&lt;span&gt;500 InternalServerError&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="59" width="371" x="671" y="504" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;span&gt;2. Validate Token&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="68" width="526" x="1203" y="559" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;font&gt;&lt;span&gt;Invalid/Token Missing&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="68" width="489" x="1215" y="609" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-21" edge="1" parent="1" style="html=1;labelBackgroundColor=light-dark(#000000,#000000);startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=2;dashed=1;fontSize=35;rounded=0;fontColor=light-dark(#000000,#000000);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontFamily=Helvetica;fontStyle=0" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="1185" y="651" as="sourcePoint" />
+            <mxPoint x="113" y="656" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;span&gt;&lt;span&gt;401 UnAuthorized&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="59" width="299" x="671" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-23" edge="1" parent="1" style="html=1;labelBackgroundColor=light-dark(#000000,#000000);startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=2;dashed=1;fontSize=35;rounded=0;fontColor=light-dark(#000000,#000000);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontFamily=Helvetica;fontStyle=0" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="1193" y="719" as="sourcePoint" />
+            <mxPoint x="121" y="724" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;span&gt;&lt;span&gt;401 UnAuthorized&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="59" width="299" x="679" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;font&gt;&lt;span&gt;Token Valid but Insufficient Permission&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span&gt;Valid -&amp;gt; Continue&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="103" width="660" x="1215" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;font&gt;&lt;span&gt;&amp;nbsp;Maintenance Mode Enabled&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82" width="556" x="1215" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;span&gt;3. Checks DB for existing SMO config&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;query filter:&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- `TenantId` = tenant (if tenant exists)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- `Name` = requested config name&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="230" width="1020" x="1215" y="795" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-28" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;span&gt;&lt;span&gt;If config exists:&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;- message: `SMO configuration already exists with the same name`&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="119" width="1198" x="1215" y="971" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-29" edge="1" parent="1" source="mIO0piNM_KG7EkZcBuuQ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=35;fontFamily=Helvetica;fontStyle=0" target="mIO0piNM_KG7EkZcBuuQ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-30" edge="1" parent="1" style="html=1;labelBackgroundColor=light-dark(#000000,#000000);startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=2;dashed=1;fontSize=35;rounded=0;fontColor=light-dark(#000000,#000000);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontFamily=Helvetica;fontStyle=0" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="1192" y="1017" as="sourcePoint" />
+            <mxPoint x="120" y="1022" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;font&gt;&lt;span&gt;500 InternalServerError&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="59" width="419" x="671" y="968" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;font&gt;&lt;span&gt;4. V&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;span&gt;alidates SMO connectivity&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;- build SMO address from:&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;- `SmoIPAddr`&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;- `SmoCmPortNo`&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;- call `CheckSMOConnectionStatus`&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;- attempts TCP connect with 2 second timeout&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;- result becomes `ConnectionStatus` (`Connected` / `Disconnected`)&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="328" width="890" x="1215" y="1155" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-33" edge="1" parent="1" style="html=1;labelBackgroundColor=light-dark(#000000,#000000);startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=2;dashed=1;fontSize=35;rounded=0;fontColor=light-dark(#000000,#000000);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontFamily=Helvetica;fontStyle=0" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="2463" y="1504" as="sourcePoint" />
+            <mxPoint x="1195" y="1504" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;font&gt;&lt;span&gt;Failure: ConnectionStatus = Disconnected&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="59" width="735" x="1683" y="1444" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);fontSize=35;fontStyle=0;fontColor=light-dark(#000000,#000000);fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2460" y="1573" as="sourcePoint" />
+            <mxPoint x="1193" y="1573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;font&gt;&lt;span&gt;Success: ConnectionStatus = Connected&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="59" width="730" x="1691" y="1514" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-37" parent="1" style="text;whiteSpace=wrap;html=1;fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font&gt;&lt;span&gt;5. C&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;reates new SMO config record&lt;/span&gt;&lt;br&gt;&lt;div&gt;&lt;font&gt;&lt;span&gt;&amp;nbsp;- map incoming `DataTypeInfo`&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;- if `DataTypeID == ORAN:MeasurementType:1.0.0` → `pmData`&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;- else → `other`&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp;- if provider is `cg_ran` and `IsKeycloakSupported`:&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;- set Keycloak flags&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;- store Keycloak params in helper state&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;&lt;span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;- call `auth.CreateToken()`&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;font&gt;&lt;span&gt;&lt;span&gt;6. I&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font&gt;&lt;span&gt;nserts the new config into DB&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="489" width="1155" x="1225" y="1595" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-38" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);fontSize=35;fontStyle=0;fontColor=light-dark(#000000,#000000);entryX=0;entryY=0;entryDx=0;entryDy=56.25;entryPerimeter=0;fontFamily=Helvetica;" target="mIO0piNM_KG7EkZcBuuQ-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1199" y="2006" as="sourcePoint" />
+            <mxPoint x="2468" y="1997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-39" edge="1" parent="1" source="mIO0piNM_KG7EkZcBuuQ-7" style="html=1;labelBackgroundColor=light-dark(#000000,#000000);startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=2;dashed=1;fontSize=35;rounded=0;fontColor=light-dark(#000000,#000000);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);exitX=0;exitY=0;exitDx=0;exitDy=138.75;exitPerimeter=0;fontFamily=Helvetica;fontStyle=0" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="2461" y="2069" as="sourcePoint" />
+            <mxPoint x="1204" y="2084" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;font&gt;&lt;span&gt;Failure&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="59" width="546" x="1870" y="2019" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-41" edge="1" parent="1" style="html=1;labelBackgroundColor=light-dark(#000000,#000000);startArrow=none;startFill=0;startSize=6;endArrow=classic;endFill=1;endSize=6;jettySize=auto;orthogonalLoop=1;strokeWidth=2;dashed=1;fontSize=35;rounded=0;fontColor=light-dark(#000000,#000000);labelBorderColor=default;strokeColor=light-dark(#000000,#000000);fontFamily=Helvetica;fontStyle=0" value="">
+          <mxGeometry height="60" relative="1" width="60" as="geometry">
+            <mxPoint x="1198" y="2082" as="sourcePoint" />
+            <mxPoint x="122" y="2082" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;font&gt;&lt;span&gt;500 InternalServerError&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="63" width="546" x="678" y="2017" as="geometry" />
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-43" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=light-dark(#000000,#000000);fontSize=35;fontStyle=0;fontColor=light-dark(#000000,#000000);exitX=0;exitY=0;exitDx=0;exitDy=232.5;exitPerimeter=0;fontFamily=Helvetica;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="2856" y="2167.5" as="sourcePoint" />
+            <mxPoint x="1203" y="2176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mIO0piNM_KG7EkZcBuuQ-44" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=35;fontFamily=Helvetica;fontStyle=0" value="&lt;div&gt;&lt;font&gt;&lt;span&gt;Success&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="59" width="546" x="1860" y="2106" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
